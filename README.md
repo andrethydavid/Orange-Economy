@@ -1,6 +1,6 @@
 # Economia naranja 🍊 🍊
 
-## Dónde deberías abrir una startup 🚀
+### Dónde deberías abrir una startup 🚀
  
 
 La economía naranja es la parte de la economía que está completa hecha por el sector tecnológico y está creciendo en todos los países de LATAM.
