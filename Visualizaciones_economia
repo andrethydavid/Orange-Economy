@@ -2,9 +2,14 @@
 
 ## Economia naranja 
 
-
 plot(orangeec$Unemployment ~ orangeec$Education.invest...GDP,
      ylab="Desempleo",
      xlab="Inversion en educacion",
      main="Relacion desempleo e inversion en eduacion")
+
+
+plot(orangeec$GDP.PC ~ orangeec$Creat.Ind...GDP,
+     ylab="PIB per capita",
+     xlab="Economia naranja",
+     main="Relacion del aporte de la economia naranja a el PIB per capita")
 
