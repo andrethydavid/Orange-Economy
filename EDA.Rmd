@@ -15,3 +15,5 @@ plot(orangeec$GDP.PC ~ orangeec$Creat.Ind...GDP,
      xlab="Economia naranja",
      main="Relacion del aporte de la economia naranja a el PIB per capita")
 
+
+![image](https://user-images.githubusercontent.com/72534486/216742612-718e8e23-8a02-41b8-9eee-c27c2d83a283.png)
