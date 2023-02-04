@@ -11,5 +11,4 @@ plot(orangeec$Unemployment ~ orangeec$Education.invest...GDP,
 plot(orangeec$GDP.PC ~ orangeec$Creat.Ind...GDP,
      ylab="PIB per capita",
      xlab="Economia naranja",
-     main="Relacion del aporte de la economia naranja a el PIB per capita")
-
+     main="Relación del aporte de la economía naranja al PIB per cápita")
