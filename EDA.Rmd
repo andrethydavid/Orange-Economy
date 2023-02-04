@@ -1,6 +1,17 @@
-# jhdhskjahdkjs
-dadsandlsajdn
 
-Economía Naranja EDA.Rmd
+# EDA con dataset proyecto 
 
-![image](https://user-images.githubusercontent.com/72534486/216742421-d8e60760-b9e2-4df7-8344-1be6f0b0500c.png)
+## VISUALIZACIONES 
+
+plot(orangeec$Unemployment ~ orangeec$Education.invest...GDP,
+     ylab="Desempleo",
+     xlab="Inversion en educacion",
+     main="Relacion desempleo e inversion en eduacion")
+
+![image](https://user-images.githubusercontent.com/72534486/216742490-83a7acaf-014e-4478-9d10-d5dc8fc15df4.png)
+
+plot(orangeec$GDP.PC ~ orangeec$Creat.Ind...GDP,
+     ylab="PIB per capita",
+     xlab="Economia naranja",
+     main="Relacion del aporte de la economia naranja a el PIB per capita")
+
