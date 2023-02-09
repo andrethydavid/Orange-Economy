@@ -17,3 +17,53 @@ plot(orangeec$GDP.PC ~ orangeec$Creat.Ind...GDP,
 
 
 ![image](https://user-images.githubusercontent.com/72534486/216742612-718e8e23-8a02-41b8-9eee-c27c2d83a283.png)
+
+# HISTOGRAMA mtcaraeconomia naranja  
+
+```
+ggplot() + geom_histogram(data=orangeec,
+                          aes(x=GDP.PC), fill = 'blue', color = 'red',
+                          binwidth = 2000)+
+  labs(x='PIB per cápita',
+       y='Cantidad de paises',
+       title= 'PIB per cápita en paises latam')+
+  theme(legend.position = "none")+
+  theme(panel.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())
+
+
+
+```
+![image](https://user-images.githubusercontent.com/72534486/217712849-c9e64cad-46e2-49c8-b643-c12cdf25ff94.png)
+
+
+```
+gplot() + geom_histogram(data=orangeec,
+                          aes(x=Creat.Ind...GDP), fill = 'blue', color = 'red',
+                          binwidth = 1)+
+  labs(x='Aporte Economia naranja al PIB(%)',
+       y='Contribucion de energia naranja al PIB en LATAM',
+       title= 'PIB per cápita en paises latam')+
+  theme(legend.position = "none")+
+  theme(panel.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())
+
+ggplot() + geom_histogram(data=orangeec,
+                          aes(x=Internet.penetration...population), fill = 'red', color = 'yellow',
+                          binwidth = 5)+
+  labs(x='Penetración Internet (%) Población',
+       y='Cantidad de paises',
+       title= 'Penetracion de Internet en paises latam')+
+  scale_x_continuous(breaks = seq(40,max(100),5))+
+  theme(legend.position = "none")+
+  theme(panel.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())
+
+
+```
+
+
+
