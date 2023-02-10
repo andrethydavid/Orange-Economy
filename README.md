@@ -10,3 +10,4 @@ Este proyecto es una evaluación de los países de LATAM para saber dónde serí
 El archivo original está hecho en R markdown, pero para que sea fácilmente visible, se hizo un archivo html.
 
 Si estás interesado en hacer tu propio negocio con tecnología, ¡solo echa un vistazo aquí, para ver lo que dicen los datos! ¡Descubre dónde está el mejor país y toda la consideración para decirlo!
+..
