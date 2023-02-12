@@ -65,5 +65,19 @@ ggplot() + geom_histogram(data=orangeec,
 
 ```
 
+# eda 
+```
+orangeec <- orangeec %>%
+  mutate(InflationGroup = ifelse(orangeec$Inflation >= AvgInflation, "Arriba de AVG", "Abajo de AVG"))
+
+ggplot(orangeec, aes(x=as.factor(InflationGroup), y=Education.invest...GDP, fill=InflationGroup)) + 
+  geom_boxplot(alpha=0.6) + labs(x="Grupo de inflación", y="Inversión en educación", title="Paises con alta y baja inflacion vs Inversión en educación")
+
+```
+![image](https://user-images.githubusercontent.com/72534486/218328048-f7759e6a-e7e6-4146-ac8d-30ccfa42e6a6.png)
+
+
+
+
 
 
